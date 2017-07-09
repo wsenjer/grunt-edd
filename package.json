@@ -1,0 +1,39 @@
+{
+  "name": "grunt-edd",
+  "description": "Connecting local repos with EDD plugin of WordPress",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wsenjer/grunt-edd",
+  "author": {
+    "name": "Waseem Senjer",
+    "email": "waseem.senjer@gmail.com",
+    "url": "http://waseem-senjer.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wsenjer/grunt-edd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wsenjer/grunt-edd/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wsenjer/grunt-edd/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
